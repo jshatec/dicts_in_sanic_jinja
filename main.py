@@ -2,7 +2,7 @@ from sanic import Sanic
 from sanic.response import redirect 
 from sanic_jinja2 import SanicJinja2
 
-app = Sanic("Hej")
+app = Sanic("First_example")
 app.static("/static", "./static")
 jinja = SanicJinja2(app)
 
